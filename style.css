@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: rgb(85, 80, 80);
+}
+
+#container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 200px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contar-botao {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contar-botao:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+#valor {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contar-botao1 {
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
